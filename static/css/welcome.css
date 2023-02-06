@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+html {
+  	color: #3c6e71;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.content {
+	padding: 5%;
+}
+.bottom {
+	padding: 100px
+}
+ul {
+  padding: 10px;
+}
+.welcomee {
+	font-family: 'Red Hat Mono', monospace;
+	font-weight: bold;
+}
+
+
+.featureli {
+	font-family: 'Red Hat Mono', monospace;
+	background-color: #111111;
+	color: #86bcbf;
+    list-style: none;
+	width: auto;
+    display: center;
+	margin: 5px;
+	border-radius: 5px;
+	border-collapse: separate; 
+	padding-left: 5px;
+	padding-right: 5px;
+    padding-top: 5px;
+}
+li:before{
+    content: ">";
+    padding-right: 5px;
+	background-color: #111111
+}
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%)
+}
+.logbutton {
+	font-size: 25px;
+	padding: 10px;
+}
+.buttons {
+	padding: 10px;
+	padding-bottom: 20px;
+}
+.btn {
+	border-radius: 15px;
+}
+.center-horizontal {
+  position: absolute;
+	left: 50%;
+	-ms-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%)
+}
+.features {
+  background-color:#111111;
+  padding: 1px;
+  border-radius: 7px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)  ; 
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)  ; 
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)  ; 
+}
+.info {
+	padding-bottom: 20px;
+}
+.planned-features{
+  background-color: #111111;
+  padding: 1px;
+  border-radius: 7px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)  ; 
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)  ; 
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)  ; 
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.welcome {
+	position: relative;
+		z-index: 10;
+	text-align:center;
+	font-weight: 700px;
+}
+
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+    background-color: #284b63 !important;
+        border-color: #284b63;
+	
+}
+
+.btn1:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)  ; 
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)  ; 
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)  ; 
+}
+.btn2:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)  ; 
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)  ; 
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)  ; 
+}
+
+.beautify-link {
+    text-decoration: none;
+    color: #84a98c;
+}
+
+.beautify-link:hover {
+    text-decoration: none;
+    color: #354f52;
+}

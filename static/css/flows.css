@@ -1,0 +1,85 @@
+.round {
+    border-radius: 10px;
+}
+
+.line-clamp {
+	word-break: break-all;
+	text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  /* truncate to 4 lines */
+  -webkit-line-clamp: 1;
+}
+
+.title{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: rgba(var(--bd-violet-rgb), 0.15);
+    border: 1px solid rgba(var(--bd-violet-rgb), 0.3);
+    margin: 10px;
+    font-size: 20px;
+}
+
+.codeblock {
+    font-family: 'Red Hat Mono', monospace;
+	background-color: #1a1a1a;
+	color: #86bcbf;
+    margin-right: 5px;
+    padding-inline: 6px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+	white-space: nowrap;
+    text-align: left;
+}
+
+
+.beautify-button {
+    width: auto;
+}
+
+inline {
+	display: inline-block;
+}
+
+.beautify-links {
+    text-decoration: none;
+    color: #86bcbf;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+form {
+    margin-right: 10px;
+	margin-left: 10px;
+    margin-bottom: 10px;
+	width: 98% !important;
+}
+
+.beautify-textbox {
+	width: 99% !important;
+}
+
+.add-url {
+	width: 100% !important;
+}
+
+.delete-name {
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.edit-name {
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-des {
+    height: 58px;
+}

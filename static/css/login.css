@@ -1,0 +1,49 @@
+input {
+    border: none;
+    border-radius: 10px;
+	width: 350px;
+	height: 45px;
+	text-align: center;
+	font-size: 200%;
+	font-family: "Roboto Mono", monospace;
+	background-color: #222222;
+    color: white;
+}
+
+input::placeholder {
+	color: white
+}
+
+input:focus {
+	background-color: #3c6e71;
+	transition: 200ms;
+	width: 420px;
+  border: none;
+}
+
+input:focus::placeholder {
+	color: aliceblue;
+  border: none
+}
+
+.beautify-link {
+    text-decoration: none;
+    color: #84a98c;
+}
+
+.beautify-link:hover {
+	text-decoration: none;
+    color: #354f52;
+	transition: 200ms
+}
+
+.need-margin {
+    margin-top: 23px;
+}
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%)
+}

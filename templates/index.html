@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block title %}FlowMaster{% endblock %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+  </style>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">	
+	<link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1066828499081498624/1071597092713275433/Simple_gold_crown.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/welcome.css') }}">
+</head>
+
+<body>
+	<div class='content'>
+  <h1 class="welcome">Welcome to FlowMaster</h1>
+	<h3 class="welcome">The best way to organize and open your links!</h3>
+  <div class="center-horizontal info">
+	  <div class="text-center buttons">
+	    <a href="/signup"><button type="button" class="btn btn-secondary logbutton btn2">Get Started</button></a><br><br>
+	    <p class="alr"style="font-size: 150%">Already have an account? <a class="alr beautify-link" href="/login" style="white-space: pre;">Sign In</a></p>
+	  </div>
+    <h3 class="welcomee">What Does it do?</h3>
+      <div class="features">
+          <ul>
+              <li class="featureli">FlowMaster allows users to create different url lists for different workflows, letting you open everything you need with the click of a button!</li>
+          </ul>
+      </div>
+	  <br>
+    <h3 class = 'welcomee'>Features:</h3>
+    <div class="features">
+      <ul>
+        <li class="featureli">Simplistic approach to automation</li>
+        <li class="featureli">Syncs across all devices</li>
+        <li class="featureli">Intuitive design</li>
+        <li class="featureli">Syncs across all browsers</li>
+        <li class="featureli">Works on all browsers</li>
+      </ul>
+    </div>
+    <br>
+    <h3 class = 'welcomee'>Planned features:</h3>
+    <div class="planned-features">
+      <ul>
+        <li class="featureli">Mobile controller for desktop browser</li>
+        <li class="featureli">Custom themes</li>
+        <li class="featureli">Browser extension</li>
+        <li class="featureli">Creating tab groups</li>
+      </ul>
+    </div>
+  </div>
+		</div>
+</body>
+
+</html>
+{% endblock %}
